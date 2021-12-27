@@ -1,0 +1,6 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+
+.loader {
+    @include flex(center, center);
+}

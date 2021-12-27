@@ -1,0 +1,9 @@
+@use '../../scss/index';
+@import '../../scss/variables';
+@import '../../scss/mixin';
+
+.gallery { 
+    width: 100%;
+    margin-bottom: 5rem;
+    // border: $border-thin;
+}

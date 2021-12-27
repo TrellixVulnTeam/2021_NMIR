@@ -1,0 +1,44 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+
+
+
+.list {
+    @include flex(center, center);
+    padding: 3.5rem 0;
+    gap: .5rem;
+
+    & li {
+        padding: $p-05-1;
+        border-radius: 50%;
+        box-shadow: inset -25px -15px 10px rgba(0,0,0,.5),
+                    10px 10px 10px 2px rgba(3, 16, 26, 0.2);
+        // border: $border-thin;
+        background-color: $first-color-alt;
+        & a {
+            height: 100%;
+            width: 100%;
+            color: $text-color;
+        }
+
+        &:first-child,
+        &:last-child {
+            border-radius: 30px;
+            & button {
+                @include flex(center, center);
+                color: $text-color;
+                background-color: transparent;
+                font-weight: bold;
+            }
+        }
+
+        &.activePage {
+            background-color: $first-color;
+            font-weight: bold;
+        }
+    }
+
+}
+
+
+

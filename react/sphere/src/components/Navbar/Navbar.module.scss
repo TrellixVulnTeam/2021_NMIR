@@ -1,0 +1,70 @@
+@use '../../scss/' as *;
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+    @include flex(center , space-between);
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: $first-color;
+        z-index: 10;
+        // transition: $transition;
+        &:hover {
+            color: $first-color-alt; 
+        }
+    }
+    
+    svg {
+        font-size: 1.5rem;
+        color: $first-color;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+
+        li {
+            margin-left: $m-1;
+        }
+    }
+
+    a {
+        transition: $transition;
+    }
+
+    @include tablet {
+        ul {
+            @include flex(center, center);
+            flex-direction: column;
+            text-align: center;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: 100%;
+            bottom: 0;
+            width: 100%;
+            background-color: $second-color;
+            backdrop-filter: blur(2px);
+            transform: translate(0);
+            transition: .3s ease transform;
+            &.isMenu {
+                transform: translate(100%);
+            }
+
+            & li {
+                font-size: 1.5rem;
+                padding: $m-1;
+            }
+        }
+    }
+}

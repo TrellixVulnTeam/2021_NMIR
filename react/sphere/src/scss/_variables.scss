@@ -1,0 +1,85 @@
+/*========== Colors ==========*/
+//* black - 	hsl(228, 19%, 5%)
+//* dark  -     hsl(213, 24%, 16%)
+//* grey  -     hsl(210, 2%, 78%)
+//* navy  -     hsl(176, 96%, 69%)
+//* navy dark - hsl(177, 40%, 45%)
+// Hue, Saturation, Lightness
+// $H: 176;
+// $S: 100;
+// $L: 100;
+// $A: 0;
+$first-color: hsl(176, 96%, 69%);
+$first-color-alt: hsl(177, 40%, 45%);
+$second-color: hsl(213, 24%, 16%);
+$second-color-alt: hsl(213, 24%, 16%, 45%);
+
+$title-color: hsl(228, 19%, 5%);
+
+$text-color: hsl(210, 2%, 78%);
+$text-color-light: hsl(210, 11%, 89%);
+
+$grey-color: hsl(220, 20%, 60%);
+$grey-color-light: hsl(222, 26%, 70%);
+
+$body-color: $second-color;
+
+/*========== Typography ==========*/
+$font-size-large: 2rem;
+$h1: 1.5rem;
+$h2: 1.25rem;
+$h3: 1rem;
+$font-size-normal: .938rem;     // 16px
+$small-font-size: .813rem;      // 13px
+$smaller-font-size: .75rem;     // 12px
+$spacing: 0.0000001px;
+
+/*========== Font weight ==========*/
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-black: 900;
+
+/*========== Margin ==========*/
+$m-0-25: .25rem;               // 4px
+$m-0-5: .5rem;                 // 8px
+$m-0-75: .75rem;               // 12px
+$m-1: 1rem;                    // 16px
+$m-1-5: 1.5rem;                // 24px
+$m-2: 2rem;                    // 32px
+$m-2-5: 2.5rem;                // 40px
+$m-4-5: 4.5rem;
+
+/*========== Padding ==========*/
+$p-25-5: $m-0-25 $m-0-5;        // 4px 8px
+$p-05-1: $m-0-5 $m-1;           // 8px 16px
+$p-05-1: $m-0-5 $m-1;           // 8px 16px
+$p-1-2: $m-1 $m-2;              // 16px 32px
+
+$p-sec-desktop: $m-2 $m-4-5;
+$p-sec-tablet: $m-1 $m-2;
+$p-sec-mobile: $m-1;
+
+$p-nav-desktop: $m-0-5 $m-2;
+$p-nav-tablet: $m-0-75 $m-1;
+$p-nav-mobile: $m-1;
+
+$border-radius: 5px;
+$box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, .5);
+$border-thin: 1px solid $grey-color;
+$border-bold: 2px solid $grey-color-light;
+
+$transition: .2s ease-out;
+
+/*========== Devices ==========*/
+$mobile-width: 600px;
+$tablet-width: 1024px;
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+@use '../../scss/index';
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    background-color: hsl(213, 24%, 16%, 85%);
+}

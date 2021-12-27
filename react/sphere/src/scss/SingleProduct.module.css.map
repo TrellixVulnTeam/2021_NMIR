@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,IAAI,CAAJ,SAAI",
+    "sources": [
+        "SingleProduct.module.scss"
+    ],
+    "names": [],
+    "file": "SingleProduct.module.css"
+}

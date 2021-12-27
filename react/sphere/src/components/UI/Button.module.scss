@@ -1,0 +1,15 @@
+@use '../../scss/' as *;
+
+.login {
+    & a {
+        border: $first-color;
+        color: $first-color;
+        background: $body-color;
+        border: 1px solid $first-color;
+    }
+    &:hover a {
+        color: $body-color;
+        background-color: $first-color;
+        border: 1px solid transparent;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,IAAI,CAAJ,cAAI",
+    "sources": [
+        "About.module.scss"
+    ],
+    "names": [],
+    "file": "About.module.css"
+}

@@ -1,0 +1,9 @@
+@use '../../scss/index';
+
+.burger {
+    display: none;   
+    @media screen and (max-width: 1024px) {
+        display: block;
+        z-index: 10;
+    }
+}

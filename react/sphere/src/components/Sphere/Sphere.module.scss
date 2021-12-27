@@ -1,0 +1,9 @@
+@use '../../scss/index';
+
+.sphere {
+    border-radius: 50%;
+    box-shadow: inset -25px -25px 40px rgba(0,0,0,.5),
+                10px 10px 10px 2px rgba(3, 16, 26, 0.2);
+    // position: absolute;
+    // transform: translate(33%, 20%);
+}

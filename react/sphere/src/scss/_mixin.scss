@@ -1,0 +1,8 @@
+@forward './variables';
+
+@mixin flex($align-items, $justify-content) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+

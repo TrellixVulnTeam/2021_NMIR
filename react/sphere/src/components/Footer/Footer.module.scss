@@ -1,0 +1,41 @@
+@use '../../scss/' as *;
+
+.footer {
+    opacity: .8;
+
+    & .social {
+        padding: $p-nav-desktop;
+        color: $text-color;
+        z-index: 100;
+        display: flex;
+        width: 100%;
+    
+        & svg {
+            font-size: 2rem;
+            margin-right: 2rem;
+            transition: .3s ease-out;
+    
+            &:hover {
+                color: $first-color-alt;
+            }
+        }
+    
+        @media screen and (max-width: 1024px) {
+            padding: $p-nav-tablet;
+            svg {
+                // font-size: 2rem;
+                margin-right: 4rem;
+            }
+        }
+    
+        @media screen and (max-width: 600px) {
+            padding: $p-nav-mobile;
+            justify-content: space-around;
+            
+            svg {
+                // font-size: 2rem;
+                margin-right: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@use '../../scss/index';
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .burger {
+    display: block;
+    z-index: 10;
+  }
+}
+/*# sourceMappingURL=Burger.module.css.map */
