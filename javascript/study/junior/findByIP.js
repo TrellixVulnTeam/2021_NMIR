@@ -23,6 +23,7 @@ wrapper.style.cssText = `
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: #eee;
 `;
 
@@ -42,6 +43,21 @@ async function findByIP() {
     const positionResponse = await fetch(`http://ip-api.com/json/${data.ip}?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city`);
     const infoLocation = await positionResponse.json();
     console.log(infoLocation);
+
+    for (let [key, value] of Object.entries(infoLocation)) {
+        console.log(key, value);
+
+        const ul = document.createElement('ul')
+        wrapper.appendChild(ul)
+
+        const li = document.createElement('li')
+        li.style.cssText = `
+            list-style: none;
+        `
+        li.innerHTML = `${key}: ${value}`
+
+        ul.appendChild(li)
+    }
 }
 
 btn.addEventListener('click', findByIP)

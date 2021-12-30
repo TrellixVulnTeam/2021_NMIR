@@ -1,4 +1,4 @@
-//@ Клонирование объекта
+// Клонирование объекта
 const obj = {
     foo: 1,
     bar: 'str',
@@ -13,7 +13,7 @@ const obj = {
 const clone = Object.assign({}, obj)
 const secondClone = {...obj} 
 
-//@ Глубокое копирование
+// Глубокое копирование
 //? С помощью lodash
 //?         _.merge({}, {obj})
 
