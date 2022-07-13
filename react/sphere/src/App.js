@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.scss';
 import Layout from './components/Layout';
 import { Routes, Route } from 'react-router-dom';

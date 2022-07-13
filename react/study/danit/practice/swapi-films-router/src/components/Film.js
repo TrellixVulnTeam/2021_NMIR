@@ -1,20 +1,22 @@
 import React, { useState } from 'react'
-import FilmDetails from '../dist/FilmDetails'
+// import FilmDetails from '../dist/FilmDetails'
+import FilmDetails from './FilmDetails'
 
 const Film = ({ film }) => {
-    const [expanded, setExpanded] = useState(false)
+    // const [expanded, setExpanded] = useState(false)
 
-    const expandFilm = () => {
-        setExpanded(true)
-    }
+    // const expandFilm = () => {
+    //     setExpanded(true)
+    // }
 
     return (
         <li>
             <div>
                 <h3>{film.name}</h3>
-                { !expanded && <button onClick={expandFilm}>Show Details</button> }
+                
+                {/* { !expanded && <button onClick={expandFilm}>Show Details</button> } */}
             </div>
-            { expanded && <FilmDetails film={film} /> }
+            {/* { expanded && <FilmDetails film={film} /> } */}
         </li>
     )
 
