@@ -5,13 +5,13 @@ Open with live server `src/index.html`
 
 ---
 
-`font-family : Poppins           < https://fonts.google.com/specimen/Poppins?query=popp />`
+1. `font-family : Poppins           < https://fonts.google.com/specimen/Poppins?query=popp />`
 
-`icons       : boxicons          < https://boxicons.com >`
-`sliders     : Swiper            < https://swiperjs.com >`
-`animation   : ScrollReveal      < https://scrollrevealjs.org >`
+2. `icons       : boxicons          < https://boxicons.com >`
+3. `sliders     : Swiper            < https://swiperjs.com >`
+4. `animation   : ScrollReveal      < https://scrollrevealjs.org >`
 
-`GitHub/dist/scrollreveal.min.js`    <-- download
+5. `GitHub/dist/scrollreveal.min.js`    <-- download
 
 ``` css
 breakpoints:
